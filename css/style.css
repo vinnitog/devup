@@ -114,6 +114,10 @@ li a:focus{
     margin-top: 50px;
 }
 
+.servicos p{
+  font-size: 13px;
+}
+
 .sobre{
     margin-top: 50px;
     color: #fff;
