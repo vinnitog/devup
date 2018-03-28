@@ -1,35 +1,109 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 a{
     text-decoration: none !important;
+    color: #fff;
+}
+
+a:hover,a:active{
+    color: #125064 !important;
+    border-color: #125064 !important;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a{
+    color: #000 !important;
+}
+
+li a:hover{
+    color: #1D84A5 !important;
+}
+
+li a:focus{
+    color: #1D84A5 !important;
+}
+
+/*---------COMEÇA VIDEO---------*/ 
+
+.video-position {
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+}
+
+.video-container .title-container {
+  z-index: 1000;
+  position: absolute;
+  margin-top: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.video-container .description {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.video-container video.fillWidth {
+  width: 100%;
+}
+
+/*---------ACABA VIDEO---------*/ 
+
+.navbar{
 }
 
 .navbar.bg-light{
     background-color: #fff !important;
-    box-shadow: 0px 1px 10px #333;
+    box-shadow: 0px 0px 5px #333 !important;
+}
+
+.navbar-nav{
+    margin: auto !important;
 }
 
 .apresentacao{
-    min-height: 800px;
+
+    /*min-height: 800px;*/
     /*background-image: url('../images/img-2-apresentacao-opaca.jpg');*/
-    background-color: #0057a4;
+    /*background-color: #0057a4;*/
     
-    /* Efeito parallax simples */
+    /* Efeito parallax simples 
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-}
-
-.logo-apresentacao{
-    margin-top: 150px;
-}
-
-.frase-apresentacao{
-    margin-top: 35px;
-    color: #fff;
-    font-size: 35px;
-    text-align: center;
+    background-size: cover;*/
 }
 
 .img-computer{

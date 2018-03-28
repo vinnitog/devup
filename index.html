@@ -10,34 +10,55 @@
     <title>Devup Sistemas</title>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="images/marca1.png" class="d-inline-block align-top" alt="">
-    </a>
-</nav>
 
 <section id="apresentacao" class="apresentacao">
-    <div class="col-md-12">
-        <div class="text-center">
-            <img class="logo-apresentacao img-responsive" src="images/marca1-branca.png" alt="logo devup sistemas">
-        </div>
-    </div>
-    <div class="col-md-12">
-        <div class="row">
-            <div class="col-md-6 offset-md-3 text-center frase-apresentacao">
-                <p>Faça um orçamento e torne o seu sonho digital em realidade!</p>
+    <div class="video-position">
+        <div class="video-container">
+            <div class="title-container col-md-12">
+                <div class="">
+                    <h1>Bem vindo à DevUP</h1>
+                </div>
+                <div class="col-md-6 offset-md-3 description">
+                    <p>Faça um orçamento e torne o seu sonho digital em realidade!</p>
+                </div>
             </div>
-            <div class="col-md-3 text-center">
-                <img class="img-responsive" src="images/caderno.png" alt="computador">
-            </div>
-        </div>
-    </div>
-    <div class"col-md-12">
-        <div class="text-center img-computer">
-            <img class="img-responsive" src="images/computer2.png" alt="computador">
+            <div class="filter"></div>
+            <video autoplay loop class="fillWidth">
+                <source src="video/video.mp4" type="video/mp4"/>Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
         </div>
     </div>
 </section>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-scroll-animation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#servicos">NOSSOS SERVIÇOS</a>
+            </li>
+            <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#desenvolvimento">DESENVOLVIMENTO</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive" src="images/marca1.png" alt="logomarca">
+                </a>
+            </li>
+            <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#cases">CASES DE SUCESSO</a>
+            </li>
+            <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#parceiros">PARCEIROS</a>
+            </li>
+            <li style="margin-top: 20px;" class="nav-item">
+                <a class="nav-link" href="#contato">CONTATO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 <section id="servicos" class="servicos">
     <h3 class="text-center">Nossos Serviços</h3>
@@ -138,6 +159,8 @@
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/video.js"></script>
+<script src="js/scroll.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
