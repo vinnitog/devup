@@ -38,6 +38,7 @@ video{
   vertical-align: baseline;
 }
 
+/*
 .video-position {
   border-right: none;
   border-left: none;
@@ -82,7 +83,7 @@ video{
 
 .video-container video.fillWidth {
   width: 100%;
-}
+}*/
 
 /*---------ACABA VIDEO---------*/ 
 
