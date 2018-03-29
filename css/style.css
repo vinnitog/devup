@@ -100,17 +100,17 @@ video{
 
 .apresentacao{
 
-    /*min-height: 800px;*/
-    /*background-image: url('../images/img-2-apresentacao-opaca.jpg');*/
+    min-height: 800px;
+    background-image: url('../images/tech-gif2.gif');
     /*background-color: #0057a4;*/
     
-    /* Efeito parallax simples 
+    Efeito parallax simples 
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 .img-computer{
