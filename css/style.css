@@ -46,7 +46,7 @@ li a:focus{
 .apresentacao{
 
     min-height: 800px;
-    background-image: url('../images/tech-gif2.gif');
+    background-image: url('../images/techgif.gif');
     
     /*Efeito parallax simples*/ 
     background-position: center;
