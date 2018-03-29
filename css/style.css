@@ -31,67 +31,12 @@ li a:focus{
     color: #1D84A5 !important;
 }
 
-/*---------COMEÇA VIDEO---------*/
-
-video{
-  display: block;
-}
-
-/*
-.video-position {
-  border-right: none;
-  border-left: none;
-  position: relative;
-}
-
-.no-video .video-container video,
-.touch .video-container video {
-  display: none;
-}
-
-.video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #fff;
-}
-
-.video-container .filter {
-  z-index: 100;
-  position: absolute;
-  background: rgba(0, 0, 0, 0);
-  width: 100%;
-}
-
-.video-container .title-container {
-  z-index: 1000;
-  position: absolute;
-  margin-top: 250px;
-  text-align: center;
-  color: #fff;
-}
-
-.video-container .description {
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.video-container video.fillWidth {
-  width: 100%;
-}*/
-
-/*---------ACABA VIDEO---------*/ 
-
 .navbar{
 }
 
 .navbar.bg-light{
     background-color: #fff !important;
-    box-shadow: 0px 0px 5px #333 !important;
+    box-shadow: 0px 2px 3px -2px #333 !important
 }
 
 .navbar-nav{
@@ -102,15 +47,22 @@ video{
 
     min-height: 800px;
     background-image: url('../images/tech-gif2.gif');
-    /*background-color: #0057a4;*/
     
-    Efeito parallax simples 
+    /*Efeito parallax simples*/ 
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.efeito-gif{
+    padding-top: 350px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 800px;
+    color: #fff;
 }
 
 .img-computer{
