@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Cabin" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/aos.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <title>Devup Sistemas</title>
@@ -15,8 +17,8 @@
 <section id="apresentacao" class="apresentacao">
     <div class="efeito-gif">
         <div class="col-md-12">
-            <h1 class="text-center">Bem vindo à DevUP</h1>
-            <p class="text-center">Faça um orçamento e torne o seu sonho digital em realidade!</p>
+            <p class="text-center col-md-6 offset-md-3">Faça um orçamento e torne o seu sonho digital em realidade!</p>
+            <br><a href="#contato" class="hvr-outline-out col-md-2 offset-md-5 text-center btn btn-primary">Texto</a>
         </div>
     </div>
 </section>
@@ -25,6 +27,9 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="#">
+        <img class="img-responsive" src="images/marca1.png" alt="logomarca">
+    </a>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li style="margin-top: 20px;" class="nav-item">
@@ -35,11 +40,6 @@
             </li>
             <li style="margin-top: 20px;" class="nav-item">
                 <a class="nav-link" href="#cases">CASES DE SUCESSO</a>
-            </li>
-            <li class="nav-item">
-                <a class="navbar-brand" href="#">
-                    <img class="img-responsive" src="images/marca1.png" alt="logomarca">
-                </a>
             </li>
             <li style="margin-top: 20px;" class="nav-item">
                 <a class="nav-link" href="#sobre">SOBRE NÓS</a>
@@ -53,9 +53,11 @@
         </ul>
     </div>
 </nav>
-
+<a href="#" id="back-to-top" title="Back to top" class="show">
+    <i id="voltar-topo" class="fas fa-3x fa-chevron-circle-up"></i>
+</a>
 <section id="servicos" class="servicos">
-    <h3 class="text-center">Nossos Serviços</h3>
+    <h1 class="text-center">Nossos Serviços</h1>
     <div style="margin-top:50px;" class="col-md-12">
         <div class="row">
             <div data-aos="fade-right" data-aos-duration="800" class="col-md-4">
@@ -96,79 +98,94 @@
 </section>
 
 <section id="desenvolvimento" class="desenvolvimento">
-    <h3 class="text-center">Desenvolvimento</h3>
+    <h1 class="text-center">Desenvolvimento</h1>
     <div class="col-md-12">
         <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
     </div>
 </section>
 
 <section id="cases" class="cases">
-    <h3 class="text-center">Cases de Sucesso</h3>
-    <div id="counter" class="col-md-12">
+    <h1 class="text-center">Cases de Sucesso</h1>
+    <div class="col-md-12">
         <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p><br>
+        <div class="counter text-center">
+            <span class='numscroller' data-min='1' data-max='1000' data-delay='10' data-increment='5'>1000</span>
+        </div>
     </div>
 </section>
 
 <section id="sobre" class="sobre">
-    <h3 class="text-center">Sobre a Devup</h3>
+    <h1 class="text-center">Sobre a Devup</h1>
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-6 text-center">
                 <p style="margin-top:50px;" ><i class="fas fa-2x fa-quote-left"></i> DevUp é uma empresa especializada no desenvolvimento de software web e mobile, focada para o público de startups, possuindo parcerias estratégicas, para estruturar um sistema por completo. <i class="fas fa-2x fa-quote-right"></i></p>
             </div>
             <div class="col-md-6 text-center">
-                <img class="img-responsive" src="images/whoweare.png" alt="computador">
+                <img class="img-responsive" src="">
             </div>
         </div>
     </div>
 </section>
 
 <section id="parceiros" class="parceiros">
-    <h3 class="text-center">Parceiros</h3>
+    <h1 class="text-center">Parceiros</h1>
     <div class="col-md-12">
         <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
     </div>
 </section>
 
-<section id="contato" class="contato">
-    <h3 class="text-center">Fale Conosco</h3>
+<section data-aos="fade-down" data-aos-duration="1000" id="contato" class="contato">
+    <h1 class="text-center">Fale Conosco</h1>
     <div style="margin-top:50px;" class="col-md-10 offset-md-2">
         <form>
             <div class="form-row">
                 <div class="form-group col-md-3">
-                    <label for="intputName">Nome</label>
+                    <i class="fas fa-2x fa-map-marker-alt"></i>
+                    <span>Localizacao</span>
+                </div>
+                <div class="form-group col-md-6 offset-md-1">
                     <input type="text" class="form-control" id="intputName" name="intputName" placeholder="Seu Nome">
                 </div>
+            </div>
+            <div class="form-row">
                 <div class="form-group col-md-3">
-                    <label for="intputPhone">Telefone</label>
+                    <i class="fas fa-2x fa-envelope"></i>
+                    <span>Email</span>
+                </div>
+                <div class="form-group col-md-6 offset-md-1">
                     <input type="text" class="form-control" id="intputPhone" name="intputPhone" placeholder="Telefone">
                 </div>
-                <div class="form-group col-md-4">
-                    <label for="inputEmail">Email</label>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <i class="fas fa-2x fa-phone-volume"></i>
+                    <span>Telefone</span>
+                </div>
+                <div class="form-group col-md-6 offset-md-1">
                     <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Seu Email">
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="intputMessage">Mensagem</label>
-                    <textarea type="text" class="form-control" id="intputMessage" name="intputMessage" rows="5"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 offset-md-4">
+                    <textarea type="text" class="form-control" id="intputMessage" name="intputMessage" rows="5" placeholder="Mensagem"></textarea>
                 </div>
             </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-success send-button col-md-2 offset-md-6">Enviar</button>
         </form>
     </div>
 </section>
 
 <footer>
     <div class="col-md-12">
-        <div class="row">
-            <div style="margin-top:50px;" class="col-md-3 text-center">
+        <div class="">
+            <div style="margin-top:50px;" class="text-center">
                 <img class="img-responsive" src="images/devup2.png" alt="logo secundaria"><br>
             </div>
-            <div style="margin-top:50px;" class="col-md-6 text-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.2091451684273!2d-49.96984138584222!3d-22.232142119732536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7386e42f611%3A0x18636cf8fd387b35!2sUNIVEM!5e0!3m2!1spt-BR!2sbr!4v1520457181081"  height="300px;" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            <div style="margin-top:80px;" class="col-md-3 text-center">
-                <a href="#"><i class="fab fa-3x fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-3x fa-instagram"></i></a>
+        </div>
+            <div style="margin-top:10px;" class="text-center">
+                <a href="#"><i class="fab fa-2x fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
             </div>
         </div>
         <div style="color:#fff; margin-top:50px;" class="text-center">
@@ -177,13 +194,14 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/numberScroll.js"></script>
+<script src="js/backtotop.js"></script>
 <script src="js/aos.js"></script>
 <script>
     AOS.init();
 </script>
-<script src="js/numberScroll.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

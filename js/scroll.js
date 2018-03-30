@@ -1,4 +1,4 @@
-$(document).on('click', '.row>div>a', function(event){
+$(document).on('click', '.efeito-gif>div>a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
@@ -6,12 +6,12 @@ $(document).on('click', '.row>div>a', function(event){
     }, 1000);
 });
 
-$(document).on('click', 'li>nav-link', function(event){
+$(document).on('click', 'li>a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 3000);
+    }, 500);
 });
 
 // animacao da navbar
